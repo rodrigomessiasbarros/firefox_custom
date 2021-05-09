@@ -41,7 +41,6 @@ then
    # Faço backup do arquivo 'user.js'existente
    now=$(date +"%Y%m%d%H%M%S")
    filename=bkp_user.$now.js
-   echo $filename
    cp $USER_JS $filename
    echo $(date '+%Y-%m-%d %H:%M:%S') "- Backup realizado. Filename: $filename" >> $HOME/.fc_custom.log
 else
