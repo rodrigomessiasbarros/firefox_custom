@@ -6,7 +6,9 @@ Shellscript para personalizar o Firefox adicionando rolagem suave e renderiza√ß√
 
 ```sh
 chmod +x firefox_custom.sh
+```
 
+```sh
 ./firefox_custom.sh
 
 ``` 
